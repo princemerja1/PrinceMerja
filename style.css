@@ -580,7 +580,7 @@ b:focus::after{
       }
     
     #infospan{
-        font-size: 2vh;
+        font-size: 1vh;
         color: white;
         font-weight: 250;
     }
