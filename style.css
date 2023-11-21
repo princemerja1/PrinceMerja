@@ -174,7 +174,7 @@ a{
     margin-right: 50px;
     margin-left: 50px;
     margin-top: 50px;
-    /* width: 1984px; */
+    width: calc(100%-50px);
     min-height: 60vh;
     max-height: 70vh;
     /* overflow: hidden; */
@@ -401,7 +401,7 @@ b:focus::after{
 
 
 /* To Make Site Responsive */
-@media (max-width: 768px){
+@media (max-width: 1024px){
     .warper{
         overflow-x: hidden;
     } 
@@ -518,7 +518,7 @@ b:focus::after{
         margin-right: 50px;
         margin-left: 50px;
         margin-top: 50px;
-        /* width: 1984px; */
+        width: calc(100%-50px);
         min-height: 60vh;
         max-height: 70vh;
         /* overflow: hidden; */
@@ -688,7 +688,7 @@ b:focus::after{
     
     }
     .custom-btn {
-        color: #ffff;
+        color: #fff;
         width: 130px;
         height: 60px;
         padding: 10px 25px;
