@@ -515,10 +515,10 @@ b:focus::after{
     
     #introduction{
         animation: animate__fadeInUp;
-        margin-right: 50px;
-        margin-left: 50px;
-        margin-top: 50px;
-        width: calc(100%-50px);
+        margin-right: 25px;
+        margin-left: 25px;
+        margin-top: 25px;
+        /* width: calc(100%-10px); */
         min-height: 60vh;
         max-height: 70vh;
         /* overflow: hidden; */
@@ -556,7 +556,7 @@ b:focus::after{
         align-self: center;
         align-items: center;
         text-align: center;
-        padding-top: 160px;
+        padding-top: 50px;
         /* margin-left: 0px; */
     }
     
@@ -565,7 +565,7 @@ b:focus::after{
         text-align: center;
         font-weight: 500;
         /* font-size: 4.5rem; */
-        font-size: 2.5vh;
+        font-size: 4vh;
     }
     
     b::after {
@@ -580,23 +580,26 @@ b:focus::after{
       }
     
     #infospan{
-        font-size: 1vh;
+        font-size: 1.2vh;
         color: white;
         font-weight: 250;
     }
     #workcontainer{
         display: flex;
         justify-content: center;
-        /* width: 500px; */
-        margin-left: 100px;
-        margin-right: 100px;
+        width: 200px;
+        left: 50%;
+        margin-left: 5px;
+        margin-right: 5px;
         padding-top: 10px;
     }
     #work{
+        transform: translateX(14vw);
+        /* padding-left: 50%; */
         font-weight: 300;
         text-align: center;
         /* font-size: 1.5rem; */
-        font-size: 1.2vh;
+        font-size: 1.8vh;   
         color: white;
     }
     
