@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Prince Merja</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="warper">
+        <header>
+            <nav>
+                <div id="left">
+                    <div id="logo">
+                        <img id="img" src="images/4.png" alt="" />
+                    </div>
+                </div>
+                <div id="right">
+                    <div id="a">
+                        <ul class="links">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#more">More</a></li>
+                        </ul>
+                    </div>
+                    <div class="toogle_btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+                <div class="dropdown_menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#more">More</a></li>
+                </div>
+            </nav>
+        </header>
+        <div id="main">
+            <section id="section1">
+                <div id="loop">
+                    <h1>
+                        | जय श्री राम | राधे राधे | जय बजरंगबली | ॐ नमः शिवाय | जय श्री
+                        कृष्ण | हर हर महादेव |
+                    </h1>
+                </div>
+            </section>
+            <section id="introduction" class="animate__fadeInUp">
+                <div id="card">
+                    <div id="card_left">
+                        <div id="welcomecontainer">
+                            <span id="Prince">
+                                <b>I &nbsp;am&nbsp; Prince</b>
+                            </span>
+                            <div id="info">
+                                <span id="infospan">-- Explore My Work --</span>
+                                <br />
+                                <div id="workcontainer">
+                                    <!-- TODO:Change Work -->
+                                    <span id="work">
+                                        <p>
+                                            From experimental passion projects to commissioned work
+                                            for clients, my portfolio holds a diverse selection of
+                                            creations that represent this dynamic industry. I thrive
+                                            on creative challenges and enjoy building strong
+                                            relationships along the way. Explore my work below.
+                                        </p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="card_right">
+                        <!-- <div id="img"></div> -->
+                        <!-- TODO:change photo -->
+                        <img id="img" src="images/7.jpg" alt="" />
+                    </div>
+                </div>
+            </section>
+            <!-- <section id="section2">
+                <div id="playlistcontainer">
+                    <iframe id="playlist" style="border-radius:12px" src="https://open.spotify.com/embed/track/0y1QJc3SJVPKJ1OvFmFqe6?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>    
+                </div>
+                
+            </section> -->
+            <section id="section3">
+                <div id="channlecontainer">
+                    <div id="left">
+                        <div id="imgcontainer">
+                            <img id="img" src="images/4.png" alt="" />
+                        </div>
+                    </div>
+                    <div id="right">
+                        <div id="ytinfocontainer">
+                            <h1>Prince Realms</h1>
+                            <p>This is my youtube channel where i post my all work.</p>
+                            <div id="buttoncontainer">
+                                <a target="_blank" href="https://youtube.com/@princerealms?si=4FvqMFLJlGqcShOU">
+                                    <button class="custom-btn btn-4">Subscibe!</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script>
+        const toogleBtn = document.querySelector('.toogle_btn')
+        const toogleBtnIcon = document.querySelector('.toogle_btn i')
+        const dropdownMenu = document.querySelector('.dropdown_menu')
+
+        toogleBtn.onclick = function () {
+            dropdownMenu.classList.toggle('open')
+            const isOpen = dropdownMenu.classList.contains('open')
+
+            toogleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+    </script>
+</body>
+
+</html>
