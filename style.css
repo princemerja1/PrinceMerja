@@ -562,7 +562,7 @@ b:focus::after{
     
     #card_left #Prince{
         color: white;
-        text-align: center;
+        /* text-align: center; */
         font-weight: 500;
         /* font-size: 4.5rem; */
         font-size: 4vh;
@@ -586,12 +586,15 @@ b:focus::after{
     }
     #workcontainer{
         display: flex;
+        align-self: center;
+        align-items: center;
+        text-align: center;
         justify-content: center;
         width: 200px;
         left: 50%;
         margin-left: 5px;
         margin-right: 5px;
-        padding-top: 10px;
+        /* padding-top: 10px; */
     }
     #work{
         transform: translateX(14vw);
