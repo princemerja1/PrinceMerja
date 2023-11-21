@@ -401,7 +401,7 @@ b:focus::after{
 
 
 /* To Make Site Responsive */
-  @media (max-width: 768px){
+@media (max-width: 768px){
     .warper{
         overflow-x: hidden;
     } 
