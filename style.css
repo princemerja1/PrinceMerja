@@ -539,7 +539,7 @@ b:focus::after{
     #card_left{
         background-image: url('images/7.jpg');
         background-size: cover;
-        backdrop-filter: blur(15px);
+        backdrop-filter: blur(150px);
         background-repeat: no-repeat;
         width: 100%;
         max-width: 100%;
@@ -585,19 +585,24 @@ b:focus::after{
         font-weight: 250;
     }
     #workcontainer{
+
         display: flex;
         align-self: center;
         align-items: center;
         text-align: center;
         justify-content: center;
-        width: 200px;
+        width: 100%;
+        /* padding-left: 10%; */
+        /* padding-right: 10%; */
         left: 50%;
         margin-left: 5px;
         margin-right: 5px;
         /* padding-top: 10px; */
     }
     #work{
-        transform: translateX(14vw);
+        padding-left: 25px;
+        padding-right: 25px;
+        /* transform: translateX(14vw); */
         /* padding-left: 50%; */
         font-weight: 300;
         text-align: center;
@@ -664,7 +669,7 @@ b:focus::after{
         height: auto;
         margin-top: 25vh;
         /* margin-left: 200px; */
-        transform: translateX(370px);
+        transform: translateX(100px);
     }
     #channlecontainer #left #img{
         width: 50%;
@@ -679,7 +684,7 @@ b:focus::after{
     
     #channlecontainer #right #ytinfocontainer{
         padding-top: 36vh;
-        margin-left: 100px;
+        margin-left: 50px;
     }
     
     #channlecontainer #right #ytinfocontainer h1{
