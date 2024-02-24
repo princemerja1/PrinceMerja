@@ -30,12 +30,13 @@ li{
 }
 nav .links{
     display: flex;
-    gap: 2rem;
+    /* gap: 2rem; */
     height: auto;
+    justify-content: space-between;
 }
 
 a{
-    color: #fff;
+    /* color: #fff; */
     text-decoration: none;
 }
 
@@ -104,7 +105,7 @@ a{
 
 #right{
     margin-left: 50%;
-    height: 100px;
+    height: auto    ;
     /* background: blue; */
     color: white;
 }
@@ -114,7 +115,6 @@ a{
 #right #a{
     right: 0;
     display: flex;
-    justify-content: flex-end;
     margin-top: 30px;
     margin-left: 10vw;
     text-align: right;
@@ -122,13 +122,19 @@ a{
 }
 
 #right a{
-    padding: 0 20px 0 20px;
+    padding: 0 90px 0 20px;
     /* font-size: 1.05rem; */
-    font-size: 1.5vh;
+    font-size: 1.7vh;
     font-family: 'Poppins', sans-serif;
     color: white;
     text-decoration: none;
     font-weight: 300;
+}
+
+#register{
+    background: pu;
+    color: black;
+    /* border-radius: 50%; */
 }
 
 
