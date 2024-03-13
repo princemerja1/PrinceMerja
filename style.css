@@ -45,7 +45,7 @@ nav{
 }
 .left{
   color: white;
-  font-size: 1.5vw;
+  font-size: 25pt;
   height: 100%;
   display: flex;
   width: 50%;
@@ -82,7 +82,7 @@ nav{
   align-items: center;
 }
 .links a{
-  font-size: 1vw;
+  font-size: 18pt;
   text-decoration: none;
   color: white;
   margin-left: 100px;
