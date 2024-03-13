@@ -38,6 +38,39 @@ body {
   background: #555;
 }
 
+.site-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff; /* Loader background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure the loader is on top of other elements */
+}
+
+/* Customize the loader animation or icon */
+.site-loader::after {
+  content: '';
+  border: 8px solid #3498db; /* Loader color */
+  border-top: 8px solid transparent; /* Transparent border for spinner effect */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite; /* Loader animation */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+#content {
+  display: none; /* Hide the content initially */
+}
+
 nav{
   display: flex;
   height: 80px;
