@@ -107,7 +107,7 @@ main{
 #video-container {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 1000px;
   overflow: hidden; /* Ensure content within stays visible */
 }
 #video {
