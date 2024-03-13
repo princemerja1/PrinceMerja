@@ -124,7 +124,7 @@ main{
   bottom: 50px; /* Adjust the distance from the bottom */
   left: 50px; /* Adjust the distance from the left */
   color: white;
-  font-size: 10em;
+  font-size: 6vw;
   font-weight: 600;
   text-align: left;
   line-height: 1.1;
