@@ -145,6 +145,9 @@ main{
   width: 100%;
   height: auto;
 }
+.section1{
+  margin-bottom: 100px;
+}
 #video-container {
   position: relative;
   width: 100%;
@@ -171,12 +174,93 @@ main{
   line-height: 1.1;
 }
 
+#loop {
+  display: flex;
+  /* position: absolute; */
+  top: 30%;
+  padding-top: 50px;
+  height: 25%;
+  width: 100%;
+  color: #ff9933;
+  font-size: 2vh;
+  white-space: nowrap;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-family: 'Tiro Devanagari Hindi', serif;
+  /* background-color: aqua ; */
+  /* font-family: gilroy; */
+}
+#loop > h1 {
+  animation-name: anim;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  font-weight: 1000;
+  font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+@keyframes anim {
+  0% {
+    transform: translateX(132%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 .section2{
   padding-top: 80px;
   color: white;
+  width: 100%;
+  height: auto;
 }
-.hello{
-  height: 1000px;
+.section2 > .welcome{
+  height: auto;
+  display: flex;
+  width: 100%;
+}
+
+
+.section2 > .welcome > .left{
+  padding-top: 120px;
+  max-height: 850px;
+  padding-left: 150px;
+  padding-right: 100px;
+  align-items: center;
+  /* font-size: 3rem; */
+  text-align: center;
+}
+
+.section2 > .welcome > .left >.text{
+  padding-top: 150px;
+  text-wrap: stable;
+}
+
+.section2 > .welcome > .left > .text > .line1{
+  font-size: 4rem;
+  font-weight: 600;
+  /* text-align: center; */
+}
+.section2 > .welcome > .left{
+  display: block;
+  align-items: center;
+}
+
+.section2 > .welcome > .left > .text > .line2{
+  font-size: 1.9rem;
+  padding: 0px 60px 0px 60px;
+  padding-top: 50px;
+
+  font-weight: 400;
+}
+.section2 > .welcome > .right > .photo{
+  max-width: 850px;
+  max-height: auto;
+  padding-right: 150px;
+}
+.section2 > .welcome > .right > .photo > img{
+  max-height: auto;
+  max-width: 850px;
 }
 .section3{
   padding-top: 80px;
@@ -184,4 +268,9 @@ main{
 }
 .shello{
   height: 2000px;
+}
+
+.section4{
+  padding-top: 80px;
+  color: white;
 }
