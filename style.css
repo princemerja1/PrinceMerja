@@ -5,6 +5,7 @@
 }
 
 html {
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 @font-face {
@@ -142,6 +143,7 @@ nav{
 }
 
 main{
+  overflow-y: hidden;
   width: 100%;
   height: auto;
 }
@@ -260,8 +262,28 @@ main{
 }
 .section2 > .welcome > .right > .photo > img{
   max-height: auto;
+  animation: fade-transform;
+  animation-duration: 3s;
+  animation-timing-function:  cubic-bezier(0.075, 0.82, 0.135, 1);
+  /* animation-iteration-count: infinite; */
   max-width: 850px;
 }
+
+@keyframes fade-transform{
+  0% {
+    opacity: 0%;
+    transform: translatey(25%);
+  }
+  75%{
+
+    transform: translatey(0%);
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+
 .section3{
   padding-top: 80px;
   color: white;
